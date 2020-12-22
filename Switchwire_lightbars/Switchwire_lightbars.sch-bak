@@ -1,0 +1,57 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5FE21D46
+P 900 900
+F 0 "J?" H 1008 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1008 1090 50  0000 C CNN
+F 2 "" H 900 900 50  0001 C CNN
+F 3 "~" H 900 900 50  0001 C CNN
+	1    900  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE267F3
+P 1400 800
+F 0 "#PWR?" H 1400 650 50  0001 C CNN
+F 1 "+5V" H 1415 973 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE27B3A
+P 1400 1000
+F 0 "#PWR?" H 1400 750 50  0001 C CNN
+F 1 "GND" H 1405 827 50  0000 C CNN
+F 2 "" H 1400 1000 50  0001 C CNN
+F 3 "" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 800  1400 800 
+Wire Wire Line
+	1100 1000 1400 1000
+Text GLabel 1400 900  2    50   Input ~ 0
+SIG
+Wire Wire Line
+	1100 900  1400 900 
+$EndSCHEMATC

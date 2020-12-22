@@ -1,0 +1,115 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5FE21D46
+P 900 900
+F 0 "J1" H 1008 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1008 1090 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 900 900 50  0001 C CNN
+F 3 "~" H 900 900 50  0001 C CNN
+	1    900  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5FE267F3
+P 1400 800
+F 0 "#PWR01" H 1400 650 50  0001 C CNN
+F 1 "+5V" H 1415 973 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FE27B3A
+P 1400 1000
+F 0 "#PWR02" H 1400 750 50  0001 C CNN
+F 1 "GND" H 1405 827 50  0000 C CNN
+F 2 "" H 1400 1000 50  0001 C CNN
+F 3 "" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 800  1400 800 
+Wire Wire Line
+	1100 1000 1400 1000
+Text GLabel 1400 900  2    50   Input ~ 0
+SIG
+Wire Wire Line
+	1100 900  1400 900 
+$Comp
+L LED:WS2812B D1
+U 1 1 5FE28ACF
+P 1400 2000
+F 0 "D1" H 1750 2250 50  0000 L CNN
+F 1 "WS2812B" H 1650 2150 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1450 1700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1500 1625 50  0001 L TNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FE2A6EA
+P 1400 2300
+F 0 "#PWR04" H 1400 2050 50  0001 C CNN
+F 1 "GND" H 1405 2127 50  0000 C CNN
+F 2 "" H 1400 2300 50  0001 C CNN
+F 3 "" H 1400 2300 50  0001 C CNN
+	1    1400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FE2AEED
+P 1400 1700
+F 0 "#PWR03" H 1400 1550 50  0001 C CNN
+F 1 "+5V" H 1415 1873 50  0000 C CNN
+F 2 "" H 1400 1700 50  0001 C CNN
+F 3 "" H 1400 1700 50  0001 C CNN
+	1    1400 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 2000 0    50   Input ~ 0
+SIG
+$Comp
+L Device:C C1
+U 1 1 5FE2B9C3
+P 700 2000
+F 0 "C1" H 815 2046 50  0000 L CNN
+F 1 "0.1uF" H 815 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 738 1850 50  0001 C CNN
+F 3 "~" H 700 2000 50  0001 C CNN
+	1    700  2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1850 700  1700
+Wire Wire Line
+	700  1700 1400 1700
+Connection ~ 1400 1700
+Wire Wire Line
+	700  2150 700  2300
+Wire Wire Line
+	700  2300 1400 2300
+Connection ~ 1400 2300
+Text GLabel 1700 2000 2    50   Input ~ 0
+1out
+$EndSCHEMATC
