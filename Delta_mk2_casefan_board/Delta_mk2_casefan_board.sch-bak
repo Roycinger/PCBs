@@ -1,0 +1,687 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6024FBC2
+P 1200 4200
+F 0 "J1" H 1172 4082 50  0000 R CNN
+F 1 "CF_1" H 1172 4173 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1200 4200 50  0001 C CNN
+F 3 "~" H 1200 4200 50  0001 C CNN
+	1    1200 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 60251558
+P 1200 4900
+F 0 "J3" H 1172 4782 50  0000 R CNN
+F 1 "CF_3" H 1172 4873 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1200 4900 50  0001 C CNN
+F 3 "~" H 1200 4900 50  0001 C CNN
+	1    1200 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 60251DA6
+P 1200 5250
+F 0 "J4" H 1172 5132 50  0000 R CNN
+F 1 "CF_4" H 1172 5223 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1200 5250 50  0001 C CNN
+F 3 "~" H 1200 5250 50  0001 C CNN
+	1    1200 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 602524FF
+P 1900 4200
+F 0 "J5" H 1872 4082 50  0000 R CNN
+F 1 "CF_5" H 1872 4173 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4200 50  0001 C CNN
+F 3 "~" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 60252E22
+P 1900 4550
+F 0 "J6" H 1872 4432 50  0000 R CNN
+F 1 "CF_5" H 1872 4523 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4550 50  0001 C CNN
+F 3 "~" H 1900 4550 50  0001 C CNN
+	1    1900 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 602533DE
+P 1900 4900
+F 0 "J7" H 1872 4782 50  0000 R CNN
+F 1 "CF_7" H 1872 4873 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4900 50  0001 C CNN
+F 3 "~" H 1900 4900 50  0001 C CNN
+	1    1900 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 602538CC
+P 1900 5250
+F 0 "J8" H 1872 5132 50  0000 R CNN
+F 1 "CF_8" H 1872 5223 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 5250 50  0001 C CNN
+F 3 "~" H 1900 5250 50  0001 C CNN
+	1    1900 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 60253C74
+P 850 800
+F 0 "J9" H 850 1000 50  0000 C CNN
+F 1 "PSU_IN" H 850 900 50  0000 C CNN
+F 2 "Connector_Wago:WAGO-2604-1102" H 850 800 50  0001 C CNN
+F 3 "~" H 850 800 50  0001 C CNN
+	1    850  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Paul_custom:LM2596 U1
+U 1 1 6029B697
+P 2850 1650
+F 0 "U1" H 2875 1849 50  0000 C CNN
+F 1 "LM2596" H 2875 1766 39  0000 C CNN
+F 2 "Paul_custom_footprints:LM2596_board" H 2850 1650 50  0001 C CNN
+F 3 "" H 2850 1650 50  0001 C CNN
+	1    2850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6029DEC9
+P 4600 2800
+F 0 "H1" H 4700 2846 50  0000 L CNN
+F 1 "MountingHole" H 4700 2755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 4600 2800 50  0001 C CNN
+F 3 "~" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6029E4B8
+P 4600 3000
+F 0 "H2" H 4700 3046 50  0000 L CNN
+F 1 "MountingHole" H 4700 2955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 4600 3000 50  0001 C CNN
+F 3 "~" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6029EB70
+P 4600 3200
+F 0 "H3" H 4700 3246 50  0000 L CNN
+F 1 "MountingHole" H 4700 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 4600 3200 50  0001 C CNN
+F 3 "~" H 4600 3200 50  0001 C CNN
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6029EE36
+P 4600 3400
+F 0 "H4" H 4700 3446 50  0000 L CNN
+F 1 "MountingHole" H 4700 3355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 4600 3400 50  0001 C CNN
+F 3 "~" H 4600 3400 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 602A122C
+P 1200 900
+F 0 "#PWR01" H 1200 650 50  0001 C CNN
+F 1 "GND" V 1205 772 50  0000 R CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 60250C39
+P 1200 4550
+F 0 "J2" H 1172 4432 50  0000 R CNN
+F 1 "CF_2" H 1172 4523 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1200 4550 50  0001 C CNN
+F 3 "~" H 1200 4550 50  0001 C CNN
+	1    1200 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:PC817 U2
+U 1 1 602B3479
+P 4900 950
+F 0 "U2" H 4900 1275 50  0000 C CNN
+F 1 "PC817" H 4900 1184 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4700 750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 950 50  0001 L CNN
+	1    4900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 602B408E
+P 4450 850
+F 0 "R1" V 4243 850 50  0000 C CNN
+F 1 "1k" V 4334 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" V 4380 850 50  0001 C CNN
+F 3 "~" H 4450 850 50  0001 C CNN
+	1    4450 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+24V #PWR04
+U 1 1 602B4F16
+P 4200 750
+F 0 "#PWR04" H 4200 600 50  0001 C CNN
+F 1 "+24V" H 4215 923 50  0000 C CNN
+F 2 "" H 4200 750 50  0001 C CNN
+F 3 "" H 4200 750 50  0001 C CNN
+	1    4200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 750  4200 850 
+Wire Wire Line
+	4200 850  4300 850 
+Wire Wire Line
+	5400 750  5400 850 
+Wire Wire Line
+	5400 850  5200 850 
+Text GLabel 5200 1050 2    50   Input ~ 0
+FET_GATE
+$Comp
+L Transistor_FET:PSMN5R2-60YL Q1
+U 1 1 602B9185
+P 4950 1450
+F 0 "Q1" H 5155 1496 50  0000 L CNN
+F 1 "PSMN0R9-25YLC" H 5155 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK56" H 5100 1450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 4950 1450 50  0001 C CNN
+	1    4950 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 1450 0    50   Input ~ 0
+FET_GATE
+$Comp
+L power:GND #PWR05
+U 1 1 602BB8F5
+P 5050 1800
+F 0 "#PWR05" H 5050 1550 50  0001 C CNN
+F 1 "GND" H 5055 1627 50  0000 C CNN
+F 2 "" H 5050 1800 50  0001 C CNN
+F 3 "" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1650 5050 1750
+Wire Wire Line
+	4750 1450 4700 1450
+$Comp
+L Device:R R2
+U 1 1 602BD473
+P 4700 1600
+F 0 "R2" H 4770 1646 50  0000 L CNN
+F 1 "15k" H 4770 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" V 4630 1600 50  0001 C CNN
+F 3 "~" H 4700 1600 50  0001 C CNN
+	1    4700 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 1450
+Wire Wire Line
+	4700 1450 4650 1450
+Wire Wire Line
+	4700 1750 5050 1750
+Wire Wire Line
+	5050 1800 5050 1750
+Connection ~ 5050 1750
+Text GLabel 5050 1250 2    50   Input ~ 0
+BA_OUT_NEG
+$Comp
+L power:+24V #PWR011
+U 1 1 602C852F
+P 1200 800
+F 0 "#PWR011" H 1200 650 50  0001 C CNN
+F 1 "+24V" V 1215 928 50  0000 L CNN
+F 2 "" H 1200 800 50  0001 C CNN
+F 3 "" H 1200 800 50  0001 C CNN
+	1    1200 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 602CA530
+P 1200 800
+F 0 "#FLG01" H 1200 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 973 50  0000 C CNN
+F 2 "" H 1200 800 50  0001 C CNN
+F 3 "~" H 1200 800 50  0001 C CNN
+	1    1200 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 602CB916
+P 2350 1800
+F 0 "#PWR08" H 2350 1550 50  0001 C CNN
+F 1 "GND" H 2355 1627 50  0000 C CNN
+F 2 "" H 2350 1800 50  0001 C CNN
+F 3 "" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 1700 2    50   Input ~ 0
++12V
+$Comp
+L Paul_custom:LM2596 U4
+U 1 1 602DD332
+P 2850 800
+F 0 "U4" H 2875 999 50  0000 C CNN
+F 1 "LM2596" H 2875 916 39  0000 C CNN
+F 2 "Paul_custom_footprints:LM2596_board" H 2850 800 50  0001 C CNN
+F 3 "" H 2850 800 50  0001 C CNN
+	1    2850 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR07
+U 1 1 602DD33C
+P 2350 800
+F 0 "#PWR07" H 2350 650 50  0001 C CNN
+F 1 "+24V" H 2365 973 50  0000 C CNN
+F 2 "" H 2350 800 50  0001 C CNN
+F 3 "" H 2350 800 50  0001 C CNN
+	1    2350 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 602DD346
+P 2350 950
+F 0 "#PWR010" H 2350 700 50  0001 C CNN
+F 1 "GND" H 2355 777 50  0000 C CNN
+F 2 "" H 2350 950 50  0001 C CNN
+F 3 "" H 2350 950 50  0001 C CNN
+	1    2350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 850  2350 850 
+Wire Wire Line
+	2350 850  2350 800 
+Text GLabel 3300 850  2    50   Input ~ 0
++5V
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 602DF959
+P 1200 2950
+F 0 "J10" H 1172 2832 50  0000 R CNN
+F 1 "Pi_Out" H 1172 2923 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1200 2950 50  0001 C CNN
+F 3 "~" H 1200 2950 50  0001 C CNN
+	1    1200 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 602E164C
+P 850 2750
+F 0 "#PWR02" H 850 2500 50  0001 C CNN
+F 1 "GND" H 855 2577 50  0000 C CNN
+F 2 "" H 850 2750 50  0001 C CNN
+F 3 "" H 850 2750 50  0001 C CNN
+	1    850  2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 2850 850  2850
+Wire Wire Line
+	850  2850 850  2750
+Text GLabel 1000 2950 0    50   Input ~ 0
++5V
+$Comp
+L Device:R R3
+U 1 1 602FDDA5
+P 4500 1450
+F 0 "R3" V 4293 1450 50  0000 C CNN
+F 1 "1k" V 4384 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" V 4430 1450 50  0001 C CNN
+F 3 "~" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 602FF1E8
+P 2100 2950
+F 0 "J11" H 2072 2832 50  0000 R CNN
+F 1 "Duet_Out" H 2072 2923 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2100 2950 50  0001 C CNN
+F 3 "~" H 2100 2950 50  0001 C CNN
+	1    2100 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 602FF1F2
+P 2850 5050
+F 0 "J12" H 2822 4932 50  0000 R CNN
+F 1 "HE_Out" H 2822 5023 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2850 5050 50  0001 C CNN
+F 3 "~" H 2850 5050 50  0001 C CNN
+	1    2850 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 603010A6
+P 2700 3250
+F 0 "J13" H 2672 3132 50  0000 R CNN
+F 1 "BA_Out_1" H 2672 3223 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2700 3250 50  0001 C CNN
+F 3 "~" H 2700 3250 50  0001 C CNN
+	1    2700 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 603010B0
+P 2700 3600
+F 0 "J14" H 2672 3482 50  0000 R CNN
+F 1 "BA_Out_2" H 2672 3573 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2700 3600 50  0001 C CNN
+F 3 "~" H 2700 3600 50  0001 C CNN
+	1    2700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 60303D8F
+P 1500 1350
+F 0 "J15" H 1472 1232 50  0000 R CNN
+F 1 "Duet_FAN1" H 1472 1323 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1500 1350 50  0001 C CNN
+F 3 "~" H 1500 1350 50  0001 C CNN
+	1    1500 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J16
+U 1 1 6030456C
+P 1500 1650
+F 0 "J16" H 1472 1532 50  0000 R CNN
+F 1 "Duet_FAN2" H 1472 1623 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1500 1650 50  0001 C CNN
+F 3 "~" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR03
+U 1 1 6030D7CD
+P 2350 1650
+F 0 "#PWR03" H 2350 1500 50  0001 C CNN
+F 1 "+24V" H 2365 1823 50  0000 C CNN
+F 2 "" H 2350 1650 50  0001 C CNN
+F 3 "" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1700 2350 1700
+Wire Wire Line
+	2350 1700 2350 1650
+NoConn ~ 1300 1350
+Text GLabel 1300 1250 0    50   Input ~ 0
+CF_SWITCHED_NEG
+Text GLabel 950  3900 1    50   Input ~ 0
++12V
+Text GLabel 1650 3900 1    50   Input ~ 0
++12V
+Text GLabel 850  3900 1    50   Input ~ 0
+CF_SWITCHED_NEG
+Text GLabel 1550 3900 1    50   Input ~ 0
+CF_SWITCHED_NEG
+Wire Wire Line
+	950  3900 950  4200
+Wire Wire Line
+	950  4200 1000 4200
+Wire Wire Line
+	950  4200 950  4550
+Wire Wire Line
+	950  4550 1000 4550
+Connection ~ 950  4200
+Wire Wire Line
+	950  4550 950  4900
+Wire Wire Line
+	950  4900 1000 4900
+Connection ~ 950  4550
+Wire Wire Line
+	950  4900 950  5250
+Wire Wire Line
+	950  5250 1000 5250
+Connection ~ 950  4900
+Wire Wire Line
+	850  3900 850  4100
+Wire Wire Line
+	850  4100 1000 4100
+Wire Wire Line
+	850  4100 850  4450
+Wire Wire Line
+	850  4450 1000 4450
+Connection ~ 850  4100
+Wire Wire Line
+	850  4450 850  4800
+Wire Wire Line
+	850  4800 1000 4800
+Connection ~ 850  4450
+Wire Wire Line
+	850  4800 850  5150
+Wire Wire Line
+	850  5150 1000 5150
+Connection ~ 850  4800
+Wire Wire Line
+	1650 3900 1650 4200
+Wire Wire Line
+	1650 4200 1700 4200
+Wire Wire Line
+	1650 4200 1650 4550
+Wire Wire Line
+	1650 4550 1700 4550
+Connection ~ 1650 4200
+Wire Wire Line
+	1650 4550 1650 4900
+Wire Wire Line
+	1650 4900 1700 4900
+Connection ~ 1650 4550
+Wire Wire Line
+	1650 4900 1650 5250
+Wire Wire Line
+	1650 5250 1700 5250
+Connection ~ 1650 4900
+Wire Wire Line
+	1550 3900 1550 4100
+Wire Wire Line
+	1550 4100 1700 4100
+Wire Wire Line
+	1550 4100 1550 4450
+Wire Wire Line
+	1550 4450 1700 4450
+Connection ~ 1550 4100
+Wire Wire Line
+	1550 4450 1550 4800
+Wire Wire Line
+	1550 4800 1700 4800
+Connection ~ 1550 4450
+Wire Wire Line
+	1550 4800 1550 5150
+Wire Wire Line
+	1550 5150 1700 5150
+Connection ~ 1550 4800
+NoConn ~ 1300 1650
+$Comp
+L Connector:Conn_01x02_Male J17
+U 1 1 6036D1AC
+P 1500 1950
+F 0 "J17" H 1472 1832 50  0000 R CNN
+F 1 "Duet_FAN3" H 1472 1923 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1500 1950 50  0001 C CNN
+F 3 "~" H 1500 1950 50  0001 C CNN
+	1    1500 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 1300 1550 0    50   Input ~ 0
+HE_SWITCHED_NEG
+Text GLabel 1300 1850 0    50   Input ~ 0
+BA_SWITCHED_NEG
+NoConn ~ 1300 1950
+Wire Wire Line
+	1050 800  1200 800 
+Connection ~ 1200 800 
+$Comp
+L power:+24V #PWR0101
+U 1 1 60395CDF
+P 1900 2950
+F 0 "#PWR0101" H 1900 2800 50  0001 C CNN
+F 1 "+24V" V 1850 2850 50  0000 L CNN
+F 2 "" H 1900 2950 50  0001 C CNN
+F 3 "" H 1900 2950 50  0001 C CNN
+	1    1900 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 603989DA
+P 1800 2750
+F 0 "#PWR0102" H 1800 2500 50  0001 C CNN
+F 1 "GND" H 1805 2577 50  0000 C CNN
+F 2 "" H 1800 2750 50  0001 C CNN
+F 3 "" H 1800 2750 50  0001 C CNN
+	1    1800 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2850 1800 2850
+Wire Wire Line
+	1800 2850 1800 2750
+Text GLabel 2650 5050 0    50   Input ~ 0
++12V
+Wire Wire Line
+	2650 4950 2500 4950
+Wire Wire Line
+	2500 4950 2500 4850
+$Comp
+L power:+24V #PWR0104
+U 1 1 603BF704
+P 2450 3750
+F 0 "#PWR0104" H 2450 3600 50  0001 C CNN
+F 1 "+24V" H 2350 3900 50  0000 L CNN
+F 2 "" H 2450 3750 50  0001 C CNN
+F 3 "" H 2450 3750 50  0001 C CNN
+	1    2450 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3750 2450 3600
+Wire Wire Line
+	2450 3600 2500 3600
+Wire Wire Line
+	2450 3600 2450 3250
+Wire Wire Line
+	2450 3250 2500 3250
+Connection ~ 2450 3600
+Text GLabel 2300 3850 3    50   Input ~ 0
+BA_OUT_NEG
+Wire Wire Line
+	2300 3850 2300 3500
+Wire Wire Line
+	2300 3500 2500 3500
+Wire Wire Line
+	2300 3500 2300 3150
+Wire Wire Line
+	2300 3150 2500 3150
+Connection ~ 2300 3500
+Text GLabel 2500 4850 1    50   Input ~ 0
+HE_SWITCHED_NEG
+Text GLabel 4600 1050 0    50   Input ~ 0
+BA_SWITCHED_NEG
+Wire Wire Line
+	2450 950  2350 950 
+NoConn ~ 3300 950 
+Wire Wire Line
+	2450 1800 2350 1800
+NoConn ~ 3300 1800
+Wire Wire Line
+	1200 900  1050 900 
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 603F1146
+P 1200 900
+F 0 "#FLG0101" H 1200 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 1073 50  0000 C CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "~" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	-1   0    0    1   
+$EndComp
+Connection ~ 1200 900 
+Wire Notes Line style solid
+	2050 2450 2050 500 
+Text Notes 1000 2250 0    100  ~ 0
+Inputs
+Text Notes 2550 2350 0    100  ~ 0
+Voltage\nConverters
+Wire Notes Line style solid
+	5950 2450 5950 500 
+Text Notes 4300 2350 0    100  ~ 0
+Berdair isolator\nand Mosfet
+Wire Notes Line style solid
+	550  2450 5950 2450
+Wire Notes Line style solid
+	550  5850 3700 5850
+Text Notes 1700 5600 0    100  ~ 0
+Outputs\n
+Wire Notes Line style solid
+	3700 500  3700 5850
+Wire Notes Line style solid
+	3700 5850 5950 5850
+Wire Notes Line style solid
+	5950 5850 5950 2450
+Text Notes 4250 3800 0    100  ~ 0
+Mounting holes\n
+Text GLabel 5400 750  1    50   Input ~ 0
++12V
+$EndSCHEMATC

@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:WeMos_D1_mini U1
+U 1 1 602BCF48
+P 1750 2150
+F 0 "U1" H 1750 1261 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 1750 1170 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 1750 1000 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H -100 1000 50  0001 C CNN
+	1    1750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Paul_custom:Logic_level_converter U2
+U 1 1 602BF10D
+P 3450 1400
+F 0 "U2" H 3450 1967 50  0000 C CNN
+F 1 "Logic_level_converter" H 3450 1876 50  0000 C CNN
+F 2 "Paul_custom_footprints:Logic_level_converter" H 3450 1400 50  0001 L BNN
+F 3 "" H 3450 1400 50  0001 L BNN
+F 4 "N/A" H 3450 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "Manufacturer Recommendations" H 3450 1400 50  0001 L BNN "STANDARD"
+F 6 "01" H 3450 1400 50  0001 L BNN "PARTREV"
+F 7 "SparkFun Electronics" H 3450 1400 50  0001 L BNN "MANUFACTURER"
+	1    3450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 602C2675
+P 1050 950
+F 0 "J1" H 1107 1267 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1107 1176 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1100 910 50  0001 C CNN
+F 3 "~" H 1100 910 50  0001 C CNN
+	1    1050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 602C333C
+P 1600 850
+F 0 "#PWR01" H 1600 700 50  0001 C CNN
+F 1 "+5V" H 1615 1023 50  0000 C CNN
+F 2 "" H 1600 850 50  0001 C CNN
+F 3 "" H 1600 850 50  0001 C CNN
+	1    1600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 850  1350 850 
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 602C4868
+P 3100 2550
+F 0 "J2" H 3208 2831 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3208 2740 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3100 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 602C50E7
+P 3100 2950
+F 0 "J3" H 3208 3131 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3208 3040 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3100 2950 50  0001 C CNN
+F 3 "~" H 3100 2950 50  0001 C CNN
+	1    3100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 602C5D64
+P 3100 3300
+F 0 "J4" H 3208 3481 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3208 3390 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3100 3300 50  0001 C CNN
+F 3 "~" H 3100 3300 50  0001 C CNN
+	1    3100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 602C630F
+P 3650 2250
+F 0 "#PWR02" H 3650 2100 50  0001 C CNN
+F 1 "+5V" H 3665 2423 50  0000 C CNN
+F 2 "" H 3650 2250 50  0001 C CNN
+F 3 "" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 602C6DE2
+P 3850 2250
+F 0 "#PWR03" H 3850 2000 50  0001 C CNN
+F 1 "GND" H 3855 2077 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 2250 3650 2450
+Wire Wire Line
+	3650 2450 3300 2450
+Wire Wire Line
+	3650 2450 3650 2950
+Wire Wire Line
+	3650 2950 3300 2950
+Connection ~ 3650 2450
+Wire Wire Line
+	3650 2950 3650 3300
+Wire Wire Line
+	3650 3300 3300 3300
+Connection ~ 3650 2950
+Wire Wire Line
+	3850 2250 3850 2650
+Wire Wire Line
+	3850 2650 3300 2650
+Wire Wire Line
+	3850 2650 3850 3050
+Wire Wire Line
+	3850 3050 3300 3050
+Connection ~ 3850 2650
+Wire Wire Line
+	3850 3050 3850 3400
+Wire Wire Line
+	3850 3400 3300 3400
+Connection ~ 3850 3050
+Text GLabel 3950 2550 2    50   Input ~ 0
+DATA
+Wire Wire Line
+	3950 2550 3300 2550
+$Comp
+L Paul_custom:MAX4466 U3
+U 1 1 602CA863
+P 1500 3600
+F 0 "U3" H 1928 3451 50  0000 L CNN
+F 1 "MAX4466" H 1928 3360 50  0000 L CNN
+F 2 "Paul_custom_footprints:MAX4466" H 1500 3600 50  0001 C CNN
+F 3 "" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

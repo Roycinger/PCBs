@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+8V #PWR02
+U 1 1 6019FB21
+P 1000 750
+F 0 "#PWR02" H 1000 600 50  0001 C CNN
+F 1 "+8V" H 1015 923 50  0000 C CNN
+F 2 "" H 1000 750 50  0001 C CNN
+F 3 "" H 1000 750 50  0001 C CNN
+	1    1000 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 601A09A6
+P 750 750
+F 0 "#PWR01" H 750 500 50  0001 C CNN
+F 1 "GND" H 755 577 50  0000 C CNN
+F 2 "" H 750 750 50  0001 C CNN
+F 3 "" H 750 750 50  0001 C CNN
+	1    750  750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:MCP1703A-3002_SOT89 U2
+U 1 1 601A3456
+P 2500 850
+F 0 "U2" H 2500 1092 50  0000 C CNN
+F 1 "MCP1703A-3002_SOT89" H 2500 1001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2500 1050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 2500 800 50  0001 C CNN
+	1    2500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 601A488D
+P 2050 1000
+F 0 "C1" H 2165 1046 50  0000 L CNN
+F 1 "1uF" H 2165 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2088 850 50  0001 C CNN
+F 3 "~" H 2050 1000 50  0001 C CNN
+	1    2050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR05
+U 1 1 601A5EA8
+P 1850 850
+F 0 "#PWR05" H 1850 700 50  0001 C CNN
+F 1 "+8V" H 1865 1023 50  0000 C CNN
+F 2 "" H 1850 850 50  0001 C CNN
+F 3 "" H 1850 850 50  0001 C CNN
+	1    1850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 850  2050 850 
+Connection ~ 2050 850 
+Wire Wire Line
+	2050 850  1850 850 
+$Comp
+L power:GND #PWR06
+U 1 1 601A69F8
+P 2500 1150
+F 0 "#PWR06" H 2500 900 50  0001 C CNN
+F 1 "GND" H 2505 977 50  0000 C CNN
+F 2 "" H 2500 1150 50  0001 C CNN
+F 3 "" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 601A7A0B
+P 3100 850
+F 0 "#PWR07" H 3100 700 50  0001 C CNN
+F 1 "+5V" H 3115 1023 50  0000 C CNN
+F 2 "" H 3100 850 50  0001 C CNN
+F 3 "" H 3100 850 50  0001 C CNN
+	1    3100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 601A85EF
+P 2950 1000
+F 0 "C2" H 3065 1046 50  0000 L CNN
+F 1 "1uF" H 3065 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2988 850 50  0001 C CNN
+F 3 "~" H 2950 1000 50  0001 C CNN
+	1    2950 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 850  2950 850 
+Connection ~ 2950 850 
+Wire Wire Line
+	2950 850  2800 850 
+Wire Wire Line
+	2950 1150 2500 1150
+Connection ~ 2500 1150
+Wire Wire Line
+	2500 1150 2050 1150
+$Comp
+L power:+5V #PWR03
+U 1 1 601A9F64
+P 1650 1650
+F 0 "#PWR03" H 1650 1500 50  0001 C CNN
+F 1 "+5V" H 1665 1823 50  0000 C CNN
+F 2 "" H 1650 1650 50  0001 C CNN
+F 3 "" H 1650 1650 50  0001 C CNN
+	1    1650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 601AAB2C
+P 1650 3450
+F 0 "#PWR04" H 1650 3200 50  0001 C CNN
+F 1 "GND" H 1655 3277 50  0000 C CNN
+F 2 "" H 1650 3450 50  0001 C CNN
+F 3 "" H 1650 3450 50  0001 C CNN
+	1    1650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 601AD603
+P 750 1100
+F 0 "J1" H 858 1281 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 858 1190 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 750 1100 50  0001 C CNN
+F 3 "~" H 750 1100 50  0001 C CNN
+	1    750  1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 601AFEF6
+P 1000 1100
+F 0 "J2" H 1108 1281 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1108 1190 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 1000 1100 50  0001 C CNN
+F 3 "~" H 1000 1100 50  0001 C CNN
+	1    1000 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 750  1000 900 
+Wire Wire Line
+	750  750  750  900 
+$Comp
+L Switch:SW_SPST SW_UP1
+U 1 1 601C4455
+P 4700 1450
+F 0 "SW_UP1" H 4700 1685 50  0000 C CNN
+F 1 "SW_SPST" H 4700 1594 50  0000 C CNN
+F 2 "Button_Switch_SMD:Omron-B3SL-1005P-MFG" H 4700 1450 50  0001 C CNN
+F 3 "~" H 4700 1450 50  0001 C CNN
+	1    4700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW_DWN1
+U 1 1 601CB2FA
+P 4700 1850
+F 0 "SW_DWN1" H 4700 2085 50  0000 C CNN
+F 1 "SW_SPST" H 4700 1994 50  0000 C CNN
+F 2 "Button_Switch_SMD:Omron-B3SL-1005P-MFG" H 4700 1850 50  0001 C CNN
+F 3 "~" H 4700 1850 50  0001 C CNN
+	1    4700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW_FIRE1
+U 1 1 601EBA9D
+P 4700 1050
+F 0 "SW_FIRE1" H 4700 1285 50  0000 C CNN
+F 1 "SW_SPST" H 4700 1194 50  0000 C CNN
+F 2 "Button_Switch_SMD:Omron-B3SL-1005P-MFG" H 4700 1050 50  0001 C CNN
+F 3 "~" H 4700 1050 50  0001 C CNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 601F1C35
+P 5100 850
+F 0 "#PWR014" H 5100 700 50  0001 C CNN
+F 1 "+5V" H 5115 1023 50  0000 C CNN
+F 2 "" H 5100 850 50  0001 C CNN
+F 3 "" H 5100 850 50  0001 C CNN
+	1    5100 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 2050 2    50   Input ~ 0
+SW_FIRE
+Text GLabel 2300 1950 2    50   Input ~ 0
+PWM
+$Comp
+L Device:R R1
+U 1 1 6020FA52
+P 4350 1850
+F 0 "R1" H 4280 1804 50  0000 R CNN
+F 1 "10k" H 4280 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 1850 50  0001 C CNN
+F 3 "~" H 4350 1850 50  0001 C CNN
+	1    4350 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 60210611
+P 3800 2150
+F 0 "#PWR010" H 3800 1900 50  0001 C CNN
+F 1 "GND" H 3805 1977 50  0000 C CNN
+F 2 "" H 3800 2150 50  0001 C CNN
+F 3 "" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 60221BB4
+P 3600 2700
+F 0 "#PWR09" H 3600 2550 50  0001 C CNN
+F 1 "+5V" H 3615 2873 50  0000 C CNN
+F 2 "" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6022247A
+P 3600 3300
+F 0 "#PWR013" H 3600 3050 50  0001 C CNN
+F 1 "GND" H 3605 3127 50  0000 C CNN
+F 2 "" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 3000 0    50   Input ~ 0
+LED
+Text GLabel 2250 2350 2    50   Input ~ 0
+LED
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6022C26B
+P 3800 3000
+F 0 "J3" H 3772 2932 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3772 3023 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 3800 3000 50  0001 C CNN
+F 3 "~" H 3800 3000 50  0001 C CNN
+	1    3800 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2700 3600 2900
+Wire Wire Line
+	3600 3100 3600 3300
+Wire Wire Line
+	3300 3000 3600 3000
+$Comp
+L MCU_Microchip_ATtiny:ATtiny84A-SSU U1
+U 1 1 602372CD
+P 1650 2550
+F 0 "U1" H 1120 2596 50  0000 R CNN
+F 1 "ATtiny84A-SSU" H 1120 2505 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1650 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" H 1650 2550 50  0001 C CNN
+	1    1650 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 2150 2    50   Input ~ 0
+SW_UP
+Text GLabel 2250 2250 2    50   Input ~ 0
+SW_DOWN
+Wire Wire Line
+	5100 850  5100 1050
+Wire Wire Line
+	5100 1050 4900 1050
+Wire Wire Line
+	5100 1050 5100 1450
+Wire Wire Line
+	5100 1450 4900 1450
+Connection ~ 5100 1050
+Wire Wire Line
+	5100 1450 5100 1850
+Wire Wire Line
+	5100 1850 4900 1850
+Connection ~ 5100 1450
+$Comp
+L Device:R R2
+U 1 1 6024335F
+P 4350 1050
+F 0 "R2" H 4280 1004 50  0000 R CNN
+F 1 "10k" H 4280 1095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 1050 50  0001 C CNN
+F 3 "~" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60243E9F
+P 4350 1450
+F 0 "R3" H 4280 1404 50  0000 R CNN
+F 1 "10k" H 4280 1495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 1450 50  0001 C CNN
+F 3 "~" H 4350 1450 50  0001 C CNN
+	1    4350 1450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4100 1050 1    50   Input ~ 0
+SW_FIRE
+Text GLabel 4100 1450 1    50   Input ~ 0
+SW_UP
+Text GLabel 4100 1850 1    50   Input ~ 0
+SW_DOWN
+Wire Wire Line
+	4200 1850 3800 1850
+Wire Wire Line
+	3800 1850 3800 2150
+Wire Wire Line
+	4200 1450 3800 1450
+Wire Wire Line
+	3800 1450 3800 1850
+Connection ~ 3800 1850
+Wire Wire Line
+	4200 1050 3800 1050
+Wire Wire Line
+	3800 1050 3800 1450
+Connection ~ 3800 1450
+$EndSCHEMATC
